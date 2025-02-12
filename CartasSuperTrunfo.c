@@ -45,6 +45,6 @@ printf("populaçao: %d\n", populacao);
 printf("area: %d\n", area);
 printf("pib: %d\n ", pib);
 printf("ponto turistico: %d\n",  pontoturistico);
-printf("densidadepopulacional:%.2f\n", densidadepopulacional);
+printf("densidade populacional:%.2f\n", densidadepopulacional);
 printf("pib per capita:%.2f\n", pibpercapita);
 }
