@@ -36,27 +36,15 @@ scanf(" %d", &pib);
 printf("ponto turistico:\n",  pontoturistico);
 scanf(" %d", &pontoturistico);
 
-printf("cidade: %s\n", nome);
+double densidadepopulacional =(double) populacao  / area;
+double pibpercapita =(double) pib / populacao;
+
+;printf("cidade: %s\n", nome);
 printf(" codigo: %d\n", codigo);
 printf("populaçao: %d\n", populacao);
 printf("area: %d\n", area);
 printf("pib: %d\n ", pib);
 printf("ponto turistico: %d\n",  pontoturistico);
+printf("densidadepopulacional:%.2f\n", densidadepopulacional);
+printf("pib per capita:%.2f\n", pibpercapita);
 }
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
-    
